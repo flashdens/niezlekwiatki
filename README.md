@@ -6,13 +6,14 @@ forum florystyczne napisane w php. mój pierwszy większy projekt i jestem z nie
 
 1. wrzucić pliki na jakiś serwer albo localhosta z użyciem xampp https://www.apachefriends.org/download.html
 2. zaimportować bazę danych do phpmyadmin używając pliku niezlekwiatki.sql 
-3. uzupełnić zmienne w pliku autoryzacja.php [jeśli nie wiesz jak] (https://stackoverflow.com/questions/46158480/how-to-connect-to-db-and-retrieve-data-from-db)
+3. uzupełnić zmienne w pliku autoryzacja.php [jeśli nie wiesz, jak] (https://stackoverflow.com/questions/46158480/how-to-connect-to-db-and-retrieve-data-from-db)
 4. powinno działać... u mnie działa przynajmniej
 
 # plany na przyszłość
 <ul>
 <li>poprawić responsywność</li>
 <li>ogarnąć burdel w hierarchii plików</li>
+<li>ogarnąć burdel w kodzie</li>
 <li>poprawić małe bugi, które pewnie z czasem się ujawnią</li>
 
 # galeria
