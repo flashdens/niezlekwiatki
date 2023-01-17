@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zarejestruj się | NiezłeKwiatki.pl</title>
+    <link rel="icon" type="image/x-icon" href="./img/logo.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body class="bg-white">
+    <div class="border border-success col-md-8 offset-md-2 text-center p-5">
+      <h1>Rejestracja na forum</h1>
+      <form action="register.php" method="post">
+        <div class="p-3">
+          <label class="form-label">Nazwa użytkownika:</label>
+          <input
+            type="text"
+            name="username"
+            maxlength="32"
+            placeholder="JanKowalski"
+            class="form-control"
+            required
+          />
+        </div>
+        <div class="p-3">
+          <label class="form-label">Hasło:</label>
+          <input
+            type="password"
+            name="password"
+            minlength="8"
+            class="form-control"
+            required
+          />
+          <small>Hasło powinno zawierać co najmniej 8 znaków!</small>
+        </div>
+        <div class="p-3">
+          <label class="form-label">Adres e-mail:</label>
+          <input
+            type="email"
+            name="email"
+            placeholder="jankowalski@student.uj.edu.pl"
+            class="form-control"
+            required
+          />
+        </div>
+        <div class="p-3">
+          <label class="form-label">Zaimki:</label>
+          <input
+            type="text"
+            name="pronouns"
+            placeholder="np. on/jego"
+            class="form-control"
+          />
+          <small
+            >Zaimki widoczne będą na Twoim profilu i pozwolą członkom forum na
+            sprawną komunikację z Tobą.</small
+          >
+        </div>
+        <div class="p-3">
+          <label class="form-label">Zdjęcie profilowe:</label>
+          <input
+            type="url"
+            name="profile_picture"
+            class="form-control"
+          />
+          <small
+            >Tutaj warto wstawić link do wybranego przez siebie zdjęcia profilowego, <br> np. <a href="https://static-cdn.jtvnw.net/jtv_user_pictures/0d223a03-7a47-4f7c-8279-1f1c7c679932-profile_image-300x300.png">
+              https://static-cdn.jtvnw.net/jtv_user_pictures/0d223a03-7a47-4f7c-8279-1f1c7c679932-profile_image-300x300.png</a> .</small>
+        <div class="p-3">
+          <input type="checkbox" required />
+          <label>
+            Zapoznałxm się z Polityką Prywatności oraz Regulaminem Forum
+            NiezłeKwiatki.pl oraz zgadzam się na warunki przedstawione przez te
+            dokumenty.
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Zarejestruj się!</button>
+      </form>
+    </div>
+  </body>
+</html>
