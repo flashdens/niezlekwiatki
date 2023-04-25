@@ -22,5 +22,3 @@ forum florystyczne napisane w php. mój pierwszy większy projekt i jestem z nie
 ![Screenshot from 2023-01-17 21-55-02](https://user-images.githubusercontent.com/97975794/213010327-5fecb8dd-cdd4-4941-83ae-c0bbad3bacf1.png)
 ![Screenshot from 2023-01-17 21-47-10](https://user-images.githubusercontent.com/97975794/213008989-eb06b392-20aa-4048-9834-0a907eb2942b.png)
 ![Screenshot from 2023-01-17 21-47-21](https://user-images.githubusercontent.com/97975794/213008997-644e49c6-572e-432c-a5e0-40d26aeb55a9.png)
-
-orzel
