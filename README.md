@@ -14,6 +14,7 @@ forum florystyczne napisane w php. mój pierwszy większy projekt i jestem z nie
 <li>poprawić responsywność</li>
 <li>ogarnąć burdel w hierarchii plików</li>
 <li>ogarnąć burdel w kodzie</li>
+<li>sanityzacja zapytań</li>
 <li>poprawić małe bugi, które pewnie z czasem się ujawnią</li>
 
 # galeria
